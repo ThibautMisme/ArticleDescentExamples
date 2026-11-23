@@ -9,4 +9,6 @@ We also give the polyomial of the orbit we computed the Galois closure from.
  - Etale Polynomials: file chiOTC, chiETC, chiJ2 <br />
 These files contain the etale polynomials of the OTC, the ETC and J[2], as returned by the algorithm of the author. One could apply the PARI/GP fonction "polredbest" to each factors. To access the etale polynomials, open a PARI/GP session and run the corresponding file with the command 'read'. <br />
 Ex[in the gp terminal]: chiOTC=read("~/ArticleDescentExamples/chiOTC");
+ - Theta Fractions: file ThetaFractions <br />
+The Theta Fractions of the small orbits are stored in the file ThetaFractions. They are named after the size of the corresponding orbit. Ex: TF1, TF30 and TF30bis. The file can be read in PARI/GP.
 
